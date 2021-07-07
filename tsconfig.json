@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig-google.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "rootDir": ".",
     "outDir": "build",
     "resolveJsonModule": true
