@@ -1,6 +1,6 @@
 {
   "name": "gts",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Google TypeScript Style",
   "repository": "google/gts",
   "main": "build/src/index.js",
