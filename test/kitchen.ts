@@ -65,6 +65,7 @@ describe('🚰 kitchen sink', () => {
     fs.accessSync(path.join(kitchenPath, '.eslintrc.json'));
     fs.accessSync(path.join(kitchenPath, '.eslintignore'));
     fs.accessSync(path.join(kitchenPath, '.prettierrc.js'));
+    fs.accessSync(path.join(kitchenPath, '.editorconfig'));
 
     // Compilation shouldn't have happened. Hence no `build` directory.
     const dirContents = fs.readdirSync(kitchenPath);
