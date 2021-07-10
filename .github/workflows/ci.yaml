@@ -48,6 +48,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
+      - run: echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+      - run: echo "GITHUB_ACTOR: $GITHUB_ACTOR"
       - run: npm run lint
   license_check:
     runs-on: ubuntu-latest
